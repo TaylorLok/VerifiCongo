@@ -81,9 +81,8 @@ Follow these instructions to set up and run the project on your local machine us
 11. Common Commands, here are some common commands for managing the project:
     Start Docker containers:
 
-        ```
         ./vendor/bin/sail up -d
-        ```
+        
     Stop Docker containers:
 
         ```
