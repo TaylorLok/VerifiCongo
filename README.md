@@ -85,35 +85,31 @@ Follow these instructions to set up and run the project on your local machine us
         
     Stop Docker containers:
 
-        ```
         ./vendor/bin/sail down
-        ```
+        
     Run Artisan commands:
 
-        ```
         ./vendor/bin/sail artisan <command>
-        ```
+      
     Run Composer commands:
 
-        ```
         ./vendor/bin/sail composer <command>
-        ```
+        
     Run NPM commands:
 
-        ```
     ./vendor/bin/sail npm <command>
-    ```
+    
 
 12. Rebuilding the Docker Containers
     If you need to rebuild the Docker containers (for example, after changing the docker-compose.yml):
 
-        ```
+        
         ./vendor/bin/sail build --no-cache
-        ```
+        
 
 13. Stopping the Application
     To stop the Docker containers:
 
-        ```
+        
         ./vendor/bin/sail down
-        ```
+        
